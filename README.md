@@ -19,8 +19,6 @@ Optimisez le référencement d'un site de photographe
 
 - changement des div exemple header et footer creation et rajout d'une balise "main"
 
-- deplacement des script en fin de code et defer
-
 - rajout des alt="description" => descptionn de l'image pour les personnes non-voyantes
 
 - loading="lazy" => consiste à spécifier quels composants d’un programme doivent être chargés lors du démarrage de celui-ci.
