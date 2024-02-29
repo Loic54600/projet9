@@ -44,7 +44,7 @@
 		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 	<!-- CDN BOOTSTRAP JS CHANGEMENT -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 		crossorigin="anonymous"></script>
 
@@ -115,23 +115,47 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<picture>
-						<img src="assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" class="d-block w-100"
+						<img src="assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg"  class="d-block w-100 h-auto"
 							loading="lazy"
 							alt="Photographie d'une personne en costume portant un sac traverse un passage piéton">
-						
+						<!-- Source différentes taille d'image -->
+						<source srcset="assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash - px480.webp"
+							media="(max-width: 480px)">
+						<source srcset="assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash - px768.webp"
+							media="(max-width: 768px)">
+						<source srcset="assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash - px1024.webp"
+							media="(max-width: 1024px)">
+						<source srcset="assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash - px1920.webp"
+							media="(max-width: 1920px)">
 					</picture>
 				</div>
 				<div class="carousel-item">
 					<picture>
-						<img src="assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100"
+						<img src="assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg"  class="d-block w-100 h-auto"
 							loading="lazy" alt="Photographie d'un rassemblement de jeune pendant un concert ">
-						
+						<source srcset="assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash - px480.webp"
+							media="(max-width: 480px)">
+						<source srcset="assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash - px768.webp"
+							media="(max-width: 768px)">
+						<source srcset="assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash - px1024.webp"
+							media="(max-width: 1024px)">
+						<source srcset="assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash - px1920.webp"
+							media="(max-width: 1920px)">
 					</picture>
 				</div>
 				<div class="carousel-item">
 					<picture>
-						<img src="assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100"
+						<img src="assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg"  class="d-block w-100 h-auto"
 							loading="lazy" alt="Photographie de marier entrain de danser autour leurs familles ">
+
+						<source srcset="assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash - px480.webp"
+							media="(max-width: 480px)">
+						<source srcset="assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash - px768.webp"
+							media="(max-width: 768px)">
+						<source srcset="assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash - px1024.webp"
+							media="(max-width: 1024px)">
+						<source srcset="assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash - px1920.webp"
+							media="(max-width: 1920px)">
 					</picture>
 				</div>
 			</div>
