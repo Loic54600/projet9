@@ -48,24 +48,30 @@
 	<!-- SCHEMA.ORG -->
 	<script type="application/ld+json">
 		{
-			"@Schemaorg": "http://schema.org",
-			"@Typework": "LocalBusiness",
-			"Work":"Photographe",
-			"Nom": "Nina ",
-			"Prenom":"Carducci",
-			"Img": "assets/images/nina.png",
-			"Mobile": "+33-5-56-67-78-89",
-			"Email": "nina.carducci@gmail.com",
-			"Insta" : "https://www.instagram.com/ninacarducci.photo/?hl=fr",
-			"Addresse": {
-			  "@type": "Adresse",
-			  "Rue": "68, Avenue Alsace-Lorraine",
-			  "CodePostal": "33200",
-			  "Localite": "Bordeaux",
-			  "Pays": "France"
+			"@context": "http://schema.org",
+			"@type": "LocalBusiness",
+			"Nom": "Nina",
+			"Prenom": "Carducci",
+			"image": "assets/images/instagram.png",
+			"telephone": "+33-5-56-67-78-89",
+			"email": "nina.carducci@gmail.com",
+			"sameAs" : "https://www.instagram.com/ninacarducci.photo/?hl=fr",
+			"address": {
+			  "@type": "PostalAddress",
+			  "streetAddress": "68, Avenue Alsace-Lorraine",
+			  "addressLocality": "Bordeaux",
+			  "addressCountry": "France",
+			  "postalCode": "33200"
 			},
-
-		}
+			"openingHoursSpecification": {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+					"lundi", "mardi", "mercredi", "jeudi", "vendredi"
+				],
+				"ouverture": "10:00",
+				"fermeture": "19:00"
+			},
+	}
 </script>
 
 </head>
