@@ -51,35 +51,35 @@
 			"@Schemaorg": "http://schema.org",
 			"@Typework": "LocalBusiness",
 			"Work":"Photographe",
-			"Nom": "Nina ",
-			"Prenom":"Carducci",
-			"Img": "assets/images/nina.png",
-			"Mobile": "+33-5-56-67-78-89",
+			"Name": "Nina ",
+			"Surname":"Carducci",
+			"Image": "assets/images/nina.png",
+			"telephone": "+33-5-56-67-78-89",
 			"Email": "nina.carducci@gmail.com",
-			"Insta" : "https://www.instagram.com/ninacarducci.photo/?hl=fr",
-			
-			"Addresse": {
-			  "@type": "Adresse",
-			  "Rue": "68, Avenue Alsace-Lorraine",
-			  "CodePostal": "33200",
-			  "Localite": "Bordeaux",
-			  "Pays": "France"
+
+			"Address": {
+			  "@type": "PostalAddress",
+			  "StreetAddress": "68, Avenue Alsace-Lorraine",
+			  "AddressLocality": "Bordeaux",
+			  "PostalCode": "33200",
+			  "AddressCountry": "France"
 			},
 
-			"Horaire": {
-				"@type": "Horaire",
-				"Jour": [
-				"lundi","mardi","mercredi","jeudi","vendredi",
-				]
-				"ouvert": "10:00",
-				"fermer": "19:00"
-			},
+			"openingHoursSpecification": [
+			{
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				],
+				"Opens": "10:00",
+				"Closes": "19:00"
+			}
+		],
 
-			"tarif": {
-				"@type": "tarif",
-				"MiniPrix": "40€",
-				"MaxPrix": "400€"
-			},
 		}
 		
 </script>
